@@ -11,6 +11,3 @@ def pascal_triangle(n):
         triangle.append(row)
 
     return triangle
-
-# Test the function
-pascal_triangle(5)
