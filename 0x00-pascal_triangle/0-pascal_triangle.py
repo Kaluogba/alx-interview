@@ -5,6 +5,7 @@ This Module provides a function to generate Pascal's triangle
 
 """
 
+
 def pascal_triangle(n):
     """
     Generates Pascal's triangle up to the nth row.
@@ -27,6 +28,7 @@ def pascal_triangle(n):
 
     return triangle
 
+
 # Test cases
 if __name__ == "__main__":
     test_cases = [5, 1, 0, 10, 100]
@@ -36,4 +38,3 @@ if __name__ == "__main__":
         for row in triangle:
             print(row)
         print()
-
